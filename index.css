@@ -1,0 +1,141 @@
+/* Static Positioning */
+.parent {
+  padding: 5px;
+  position: static;
+  background-color: #00AAFF;
+  width: 40%;
+}
+
+.child-one {
+  position: static;
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  position: static;
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  position: static;
+  background-color: rgb(255, 116, 232);
+}
+
+/*     To Uncomment, select, then press ctrl + /       */
+
+/* Relative Positioning
+.parent {
+  padding: 5px;
+  background-color: #00AAFF;
+  width: 40%;
+}
+
+.child-one {
+  position: relative;
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  background-color: rgb(255, 116, 232);
+} */
+
+
+/* Relative Positioning with Top, Bottom, Left and Right
+.parent {
+  padding: 5px;
+  background-color: #00AAFF;
+  width: 40%;
+}
+
+.child-one {
+  position: relative;
+  top: 10px;
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  background-color: rgb(255, 116, 232);
+} */
+
+
+
+/* Absolute Positioning
+.parent {
+  padding: 5px;
+  background-color: #00AAFF;
+  width: 40%;
+  position: static;
+}
+
+.child-one {
+  position: absolute;
+  top: 0px;
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  background-color: rgb(255, 116, 232);
+} */
+
+
+/* Fixed Positioning
+.parent {
+  padding: 5px;
+  background-color: #00AAFF;
+  width: 40%;
+  position: relative;
+  top: 0px;
+  height: 1000px;
+}
+
+.child-one {
+  position: fixed;
+  top: 0px;
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  background-color: rgb(255, 116, 232);
+} */
+
+
+/* Sticky Positioning
+.parent {
+  padding: 5px;
+  background-color: #00AAFF;
+  width: 40%;
+  position: relative;
+  top: 0px;
+  height: 1000px;
+}
+
+.child-one {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(116, 255, 116);
+}
+
+.child-two {
+  background-color: rgb(248, 117, 117);
+}
+
+.child-three {
+  background-color: rgb(255, 116, 232);
+} */
+
